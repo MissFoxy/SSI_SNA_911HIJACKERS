@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Carica il file CSV
-file911Associates = pd.read_csv("T:\\MAGISTRALE LEZIONI E MATERIALE\\[SSI] Sicurezza dei Sistemi Informativi\\DATASET911\\9_11_HIJACKERS_ASSOCIATES.csv")  # Assicurati che il tuo file CSV sia presente nella stessa directory del notebook o specifica il percorso completo
+file911Associates = pd.read_csv("T:\\MAGISTRALE LEZIONI E MATERIALE\\[SSI] Sicurezza dei Sistemi Informativi\\DATASET911\\9_11_HIJACKERS_ASSOCIATES.csv")  
 #file911Associates = pd.read_csv("T:\\MAGISTRALE LEZIONI E MATERIALE\\[SSI] Sicurezza dei Sistemi Informativi\\DATASET911\\9_11_HIJACKERS_PRIORCONTACTS.csv")
 
 # Crea un grafo vuoto
